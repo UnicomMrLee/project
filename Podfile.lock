@@ -1,0 +1,102 @@
+PODS:
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - CYLTabBarController (1.19.2)
+  - DZNEmptyDataSet (1.8.1)
+  - FRDModuleManager (0.1.0)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - SJFullscreenPopGesture (1.4.6)
+  - Texture (2.8):
+    - Texture/AssetsLibrary (= 2.8)
+    - Texture/Core (= 2.8)
+    - Texture/MapKit (= 2.8)
+    - Texture/Photos (= 2.8)
+    - Texture/PINRemoteImage (= 2.8)
+    - Texture/Video (= 2.8)
+  - Texture/AssetsLibrary (2.8):
+    - Texture/Core
+  - Texture/Core (2.8)
+  - Texture/MapKit (2.8):
+    - Texture/Core
+  - Texture/Photos (2.8):
+    - Texture/Core
+  - Texture/PINRemoteImage (2.8):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (2.8):
+    - Texture/Core
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - BGFMDB
+  - CYLTabBarController
+  - DZNEmptyDataSet
+  - FRDModuleManager (from `https://github.com/lincode/FRDModuleManager.git`, commit `0.1.0`)
+  - IQKeyboardManager
+  - Masonry
+  - SJFullscreenPopGesture
+  - Texture
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BGFMDB
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - SJFullscreenPopGesture
+    - Texture
+    - YYModel
+
+EXTERNAL SOURCES:
+  FRDModuleManager:
+    :commit: 0.1.0
+    :git: https://github.com/lincode/FRDModuleManager.git
+
+CHECKOUT OPTIONS:
+  FRDModuleManager:
+    :commit: 0.1.0
+    :git: https://github.com/lincode/FRDModuleManager.git
+
+SPEC CHECKSUMS:
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  CYLTabBarController: 5b364d6be617331a07f3f3f0ea537f7950501042
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FRDModuleManager: 125020c723f55d2232afd617578a0bad7fc04182
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  SJFullscreenPopGesture: 94db6f970d864d53161d819916aed3f30b6a1442
+  Texture: fc6e0157201f3a6e503d364c147b1872e365cef4
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 49950c41093fdbe0c9b594deebd0489a0dbde6b2
+
+COCOAPODS: 1.6.0

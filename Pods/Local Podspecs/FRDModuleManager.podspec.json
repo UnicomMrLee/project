@@ -1,0 +1,24 @@
+{
+  "name": "FRDModuleManager",
+  "version": "0.1.0",
+  "summary": "FRDModuleManager can organise modules easily used by UIApplicationDelegate",
+  "description": "FRDModuleManager can organise modules easily in AppDelegate.",
+  "homepage": "https://github.com/lincode/FRDModuleManager",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "lincode": "guolin@douban.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/lincode/FRDModuleManager.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "FRDModuleManager/Source/**/*.{h,m}",
+  "frameworks": "UIKit",
+  "requires_arc": true
+}

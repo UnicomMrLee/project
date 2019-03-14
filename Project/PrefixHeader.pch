@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Project
+//
+//  Created by Mr_BruceChen on 2019/3/13.
+//  Copyright © 2019 CHINA UNICOM SYSTEM INTEGRATION CO., LTD. HENAN BRANCH. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Constant.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 状态栏高度和菜单栏高度
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define kNavHeight (ChinaUStatusBarHeight + kNavBarHeight)
+
+//view高度
+#define ViewHeight [[UIScreen mainScreen] bounds].size.height
+
+
+//view宽度
+#define ViewWidth  [[UIScreen mainScreen] bounds].size.width
+
+#endif /* PrefixHeader_pch */
